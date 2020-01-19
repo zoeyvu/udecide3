@@ -1,0 +1,354 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+  background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url(graduni.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.sign{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(blue.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.out{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(blue.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+body
+{
+    font-family: monospace;
+}
+.row
+{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li.active a
+{
+
+
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+	background-color: lightblue;
+	transition: all 0.1s ease-in;
+}
+
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 6px 25px;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1300px;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+
+h1
+{
+    color: black;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+
+
+.button
+{
+    margin-top: 30px;
+    margin-left: 450px;
+}
+
+.btn
+{
+    border: 2px solid white;
+    padding: 12px 12px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.btn-one
+{
+    background-color: darkorange;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-one:hover
+{
+    background-color: lightblue;
+    transition: all 0.1s ease-in;
+
+
+}
+.btn-two
+{
+
+	background-color: darkorange;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.btn-two:hover
+{
+    background-color: lightblue;
+    transition: all 0.1s ease-in;
+
+
+}
+
+.logo img
+{
+    width: 200px;
+    height: auto;
+}
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+/* sign up */
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  length:50%;
+  opacity: 0.9;
+}
+.email_fields{
+  width:50px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+
+/* Float cancel and signup buttons and add an equal width */
+/*  float: left;
+  width: 50%;
+  padding:-50px -50px -50px -50px;
+}*/
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.signupbtn{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/* response form */
